@@ -50,6 +50,8 @@ sponse. </li>
 <li> cnn_model_1.h5: contains the saved model on h5 extension ready to predict. </li>
 </ul>
 
+Application files:
+
 ![image](https://user-images.githubusercontent.com/47029962/210530729-8dca68ec-5467-4d93-85ef-c69aecf7fa85.png)
 
 First we use the POST method for the prediction calls. We have sentence as mandatory input and
@@ -57,14 +59,23 @@ the position1 and position2 of the entities are optional for more precision. The
 causality relation prediction for a given input, we will stock it into SQLite database. Finally, we will
 display the list of the gathered data within the database.
 
+Prediction input form page:
+
 ![image](https://user-images.githubusercontent.com/47029962/210530996-1562256b-e6a6-4ce2-912c-794f32fd88ed.png)
 
+An example of an input sentence:
 
 ![image](https://user-images.githubusercontent.com/47029962/210531071-45354250-fd4a-4393-938b-ea3cce9160a3.png)
 
+Example of prediction output:
+
 ![image](https://user-images.githubusercontent.com/47029962/210531154-046b46c6-990c-4b24-959a-0d83b41f769c.png)
 
+PredResults datatable:
+
 ![image](https://user-images.githubusercontent.com/47029962/210531210-f21eacee-fffd-45c6-91e6-e0b4aa45dac0.png)
+
+DB list display:
 
 ![image](https://user-images.githubusercontent.com/47029962/210531265-e17f9a63-72aa-4639-b8aa-42696dcb445f.png)
 
