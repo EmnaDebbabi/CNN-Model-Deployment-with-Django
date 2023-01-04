@@ -14,6 +14,8 @@ Finally, for the deployment part we chose Django as a framework with sqlite3 as 
 
 We will outline the phases involved in our deployment process, which will use our model to forecast
 the desired results:
-• Our models are trained, and then saved locally so we may use them for prediction.
-• Our prediction code will be integrated into the Django framework to produce web services for
-our application later.
+<ol>
+<li> Our models are trained, and then saved locally so we may use them for prediction. </li>
+<li> Our prediction code will be integrated into the Django framework to produce web services for
+our application later. </li>
+</ol>
