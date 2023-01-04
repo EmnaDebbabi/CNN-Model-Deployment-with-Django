@@ -8,3 +8,12 @@ programming language also tensorflow 2.2 and anaconda as a framework that manage
 Finally, for the deployment part we chose Django as a framework with sqlite3 as a database.
 
 ![image](https://user-images.githubusercontent.com/47029962/210519950-253289db-b0fd-4e5b-bcb8-9e9d251957a0.png)
+
+
+## Deploying steps
+
+We will outline the phases involved in our deployment process, which will use our model to forecast
+the desired results:
+• Our models are trained, and then saved locally so we may use them for prediction.
+• Our prediction code will be integrated into the Django framework to produce web services for
+our application later.
