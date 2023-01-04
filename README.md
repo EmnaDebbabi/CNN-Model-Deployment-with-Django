@@ -49,6 +49,7 @@ sponse. </li>
 <li> predict/utils.py file: contains the code for the words embeddings part. </li>
 <li> cnn_model_1.h5: contains the saved model on h5 extension ready to predict. </li>
 </ul>
+
 ![image](https://user-images.githubusercontent.com/47029962/210530729-8dca68ec-5467-4d93-85ef-c69aecf7fa85.png)
 
 First we use the POST method for the prediction calls. We have sentence as mandatory input and
