@@ -1,6 +1,6 @@
 # CNN-Model-Deployment-with-Django
 
-##Tools
+## Tools
 
 We require specialized tools for each type of project before we can build it. In our case to deploy
 the CNN model, the first part of the project, We have used python 3.7 as
